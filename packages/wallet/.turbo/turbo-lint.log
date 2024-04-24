@@ -1,0 +1,131 @@
+
+/Users/leandroalmeida/www/interface/packages/wallet/src/components/TokenSelector/hooks.ts
+  51:5   error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+  87:7   error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+  90:11  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+
+/Users/leandroalmeida/www/interface/packages/wallet/src/components/input/AmountInput.tsx
+  160:12  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+
+/Users/leandroalmeida/www/interface/packages/wallet/src/components/legacy/CurrencyInputPanelLegacy.tsx
+  184:7  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+
+/Users/leandroalmeida/www/interface/packages/wallet/src/components/nfts/NftsList.tsx
+  139:9   error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+  158:37  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+
+/Users/leandroalmeida/www/interface/packages/wallet/src/features/chains/utils.ts
+  126:7  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+  128:7  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+  130:7  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+  132:7  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+  134:7  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+  136:7  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+
+/Users/leandroalmeida/www/interface/packages/wallet/src/features/dataApi/balances.ts
+  203:11  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+  259:11  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+  281:3   error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+  281:43  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+  466:13  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+
+/Users/leandroalmeida/www/interface/packages/wallet/src/features/dataApi/searchTokens.ts
+  35:5   error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+  47:11  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+
+/Users/leandroalmeida/www/interface/packages/wallet/src/features/dataApi/tokenProjects.ts
+  17:11  error  Unsafe return of an `any[]` typed value  @typescript-eslint/no-unsafe-return
+  17:35  error  Unsafe return of an `any` typed value    @typescript-eslint/no-unsafe-return
+  33:35  error  Unsafe return of an `any` typed value    @typescript-eslint/no-unsafe-return
+
+/Users/leandroalmeida/www/interface/packages/wallet/src/features/dataApi/topTokens.ts
+  30:5  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+
+/Users/leandroalmeida/www/interface/packages/wallet/src/features/dataApi/utils.ts
+  46:7  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+
+/Users/leandroalmeida/www/interface/packages/wallet/src/features/ens/api.ts
+  105:3   error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+  106:12  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+  116:3   error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+  119:3   error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+  122:3   error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+  125:3   error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+  128:3   error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+
+/Users/leandroalmeida/www/interface/packages/wallet/src/features/nfts/hooks.ts
+  37:7  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+
+/Users/leandroalmeida/www/interface/packages/wallet/src/features/nfts/utils.ts
+   5:61  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+  11:23  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+  32:3   error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+
+/Users/leandroalmeida/www/interface/packages/wallet/src/features/tokens/hooks.ts
+  32:5   error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+  43:11  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+  46:9   error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+
+/Users/leandroalmeida/www/interface/packages/wallet/src/features/transactions/history/conversion/extractTransactionDetails.ts
+  84:13  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+  86:13  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+
+/Users/leandroalmeida/www/interface/packages/wallet/src/features/transactions/history/conversion/parseTradeTransaction.ts
+  68:9  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+  82:7  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+
+/Users/leandroalmeida/www/interface/packages/wallet/src/features/transactions/history/utils.ts
+  104:5  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+  220:3  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+
+/Users/leandroalmeida/www/interface/packages/wallet/src/features/transactions/swap/CurrencyInputPanel.tsx
+  162:70  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+
+/Users/leandroalmeida/www/interface/packages/wallet/src/features/transactions/swap/trade/legacy/api.ts
+  200:9  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+  209:7  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+  225:7  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+  234:5  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+
+/Users/leandroalmeida/www/interface/packages/wallet/src/features/transactions/swap/trade/legacy/hooks.ts
+  121:3  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+
+/Users/leandroalmeida/www/interface/packages/wallet/src/features/transactions/swap/trade/tradingApi/hooks/useTradingApiTrade.ts
+  151:3  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+  171:9  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+  180:7  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+  207:7  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+
+/Users/leandroalmeida/www/interface/packages/wallet/src/features/transactions/swap/trade/tradingApi/hooks/useTransactionRequestInfo.ts
+  120:12  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+
+/Users/leandroalmeida/www/interface/packages/wallet/src/features/transactions/swap/wrapSaga.ts
+  29:3  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+
+/Users/leandroalmeida/www/interface/packages/wallet/src/features/transactions/transfer/hooks/useTransferTransactionRequest.ts
+  135:3  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+  164:3  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+  198:3  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+
+/Users/leandroalmeida/www/interface/packages/wallet/src/test/fixtures/gql/history.ts
+  45:3  error  Unsafe return of an `any[]` typed value  @typescript-eslint/no-unsafe-return
+
+/Users/leandroalmeida/www/interface/packages/wallet/src/test/mocks/gql/resolvers.ts
+  22:9  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+  37:9  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+
+/Users/leandroalmeida/www/interface/packages/wallet/src/test/utils/resolvers.ts
+   88:13  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+  106:5   error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+
+/Users/leandroalmeida/www/interface/packages/wallet/src/utils/colors.tsx
+  407:3  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+
+/Users/leandroalmeida/www/interface/packages/wallet/src/utils/persistedStorage.ts
+  23:5  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+  27:5  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+  31:5  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+  35:5  error  Unsafe return of an `any` typed value  @typescript-eslint/no-unsafe-return
+
+✖ 70 problems (70 errors, 0 warnings)
+

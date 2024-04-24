@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "alwaysStrict": true,
+    "baseUrl": "src",
+    "composite": true,
+    "declarationMap": false,
+    "downlevelIteration": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": false,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "target": "ESNext",
+    "tsBuildInfoFile": "node_modules/.cache/tsbuildinfo/build", // avoid clobbering the cypress tsbuildinfo
+    "types": ["jest"],
+    "useUnknownInCatchVariables": false,
+    "paths": {
+      "@uniswap/sdk-core": ["../../../node_modules/@hemilabs/sdk-core"],
+      "@uniswap/sdk-core/*": ["../../../node_modules/@hemilabs/sdk-core/*"],
+      "@uniswap/smart-order-router": ["../../../node_modules/@hemilabs/smart-order-router"],
+      "@uniswap/smart-order-router/*": ["../../../node_modules/@hemilabs/smart-order-router/*"],
+      "@uniswap/universal-router-sdk": ["../../../node_modules/@hemilabs/universal-router-sdk"],
+      "@uniswap/universal-router-sdk/*": ["../../../node_modules/@hemilabs/universal-router-sdk/*"]
+    }
+  },
+  "include": ["src/**/*", "src/**/*.json"],
+}

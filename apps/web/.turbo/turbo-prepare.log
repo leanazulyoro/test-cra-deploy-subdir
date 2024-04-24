@@ -1,0 +1,54 @@
+[ajv] npm WARN ignoring workspace config at /Users/leandroalmeida/www/interface/apps/web/.npmrc 
+[ajv] 
+[ajv] > @uniswap/interface@1.1.0 ajv
+[ajv] > node scripts/compile-ajv-validators.js
+[ajv] 
+[i18n] npm WARN ignoring workspace config at /Users/leandroalmeida/www/interface/apps/web/.npmrc 
+[i18n] 
+[i18n] > @uniswap/interface@1.1.0 i18n
+[i18n] > yarn i18n:extract --clean && yarn i18n:compile
+[i18n] 
+[ajv] npm run ajv exited with code 0
+[i18n] ✔ 
+[i18n] Catalog statistics for src/locales/{locale}: 
+[i18n] ┌────────────────┬─────────────┬─────────┐
+[i18n] │ Language       │ Total count │ Missing │
+[i18n] ├────────────────┼─────────────┼─────────┤
+[i18n] │ af-ZA          │    1034     │  1034   │
+[i18n] │ ar-SA          │    1034     │  1034   │
+[i18n] │ ca-ES          │    1034     │  1034   │
+[i18n] │ cs-CZ          │    1034     │  1034   │
+[i18n] │ da-DK          │    1034     │  1034   │
+[i18n] │ el-GR          │    1034     │  1034   │
+[i18n] │ en-US (source) │    1034     │    -    │
+[i18n] │ es-ES          │    1034     │  1034   │
+[i18n] │ fi-FI          │    1034     │  1034   │
+[i18n] │ fr-FR          │    1034     │  1034   │
+[i18n] │ he-IL          │    1034     │  1034   │
+[i18n] │ hu-HU          │    1034     │  1034   │
+[i18n] │ id-ID          │    1034     │  1034   │
+[i18n] │ it-IT          │    1034     │  1034   │
+[i18n] │ ja-JP          │    1034     │  1034   │
+[i18n] │ ko-KR          │    1034     │  1034   │
+[i18n] │ nl-NL          │    1034     │  1034   │
+[i18n] │ no-NO          │    1034     │  1034   │
+[i18n] │ pl-PL          │    1034     │  1034   │
+[i18n] │ pt-BR          │    1034     │  1034   │
+[i18n] │ pt-PT          │    1034     │  1034   │
+[i18n] │ ro-RO          │    1034     │  1034   │
+[i18n] │ ru-RU          │    1034     │  1034   │
+[i18n] │ sr-SP          │    1034     │  1034   │
+[i18n] │ sv-SE          │    1034     │  1034   │
+[i18n] │ sw-TZ          │    1034     │  1034   │
+[i18n] │ tr-TR          │    1034     │  1034   │
+[i18n] │ uk-UA          │    1034     │  1034   │
+[i18n] │ vi-VN          │    1034     │  1034   │
+[i18n] │ zh-CN          │    1034     │  1034   │
+[i18n] │ zh-TW          │    1034     │  1034   │
+[i18n] └────────────────┴─────────────┴─────────┘
+[i18n] 
+[i18n] (use "yarn i18n:extract" to update catalogs with new messages)
+[i18n] (use "yarn i18n:compile" to compile catalogs for production)
+[i18n] Compiling message catalogs...
+[i18n] Done!
+[i18n] npm run i18n exited with code 0

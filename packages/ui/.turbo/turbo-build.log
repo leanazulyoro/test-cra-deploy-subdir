@@ -1,0 +1,1 @@
+[2m$ npx tsc --outDir types --rootDir src --emitDeclarationOnly --declarationMap
