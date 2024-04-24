@@ -27,14 +27,14 @@ jobs:
           cd apps/web
           yarn run build
 
-      - name: Copy files to Hostinger
-        uses: appleboy/scp-action@master
-        with:
-          host: ${{ secrets.HOSTINGER_HOST }}
-          username: ${{ secrets.HOSTINGER_USER }}
-          port: ${{ secrets.HOSTINGER_PORT }}
-          key: ${{ secrets.HOSTINGER_SSH_KEY }}
-          source: apps/web/build/*
-          target: public_html/uniswap
-          rm: true
-          strip_components: 3
+#      - name: Copy files to Hostinger
+#        uses: appleboy/scp-action@master
+#        with:
+#          host: ${{ secrets.HOSTINGER_HOST }}
+#          username: ${{ secrets.HOSTINGER_USER }}
+#          port: ${{ secrets.HOSTINGER_PORT }}
+#          key: ${{ secrets.HOSTINGER_SSH_KEY }}
+#          source: apps/web/build/*
+#          target: public_html/uniswap
+#          rm: true
+#          strip_components: 3
