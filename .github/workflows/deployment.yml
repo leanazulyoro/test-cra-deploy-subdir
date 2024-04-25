@@ -14,9 +14,6 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v3
 
-      - name: Setup upterm session
-        uses: lhotari/action-upterm@v1
-
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
@@ -29,6 +26,9 @@ jobs:
         run: |
           cd apps/web
           yarn run build
+
+      - name: Setup upterm session
+        uses: lhotari/action-upterm@v1
 
 #      - name: Copy files to Hostinger
 #        uses: appleboy/scp-action@master
