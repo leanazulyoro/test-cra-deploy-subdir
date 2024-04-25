@@ -19,8 +19,8 @@ jobs:
         with:
           node-version-file: .nvmrc
 
-      - name: Setup upterm session
-        uses: lhotari/action-upterm@v1
+#      - name: Setup upterm session
+#        uses: lhotari/action-upterm@v1
 
       - name: Install Dependencies
         run: yarn install --immutable
@@ -28,7 +28,7 @@ jobs:
       - name: Build site
         run: |
           cd apps/web
-          yarn run build
+          yarn run build:production
 
 #      - name: Copy files to Hostinger
 #        uses: appleboy/scp-action@master
