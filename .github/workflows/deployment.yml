@@ -19,11 +19,11 @@ jobs:
         with:
           node-version-file: .nvmrc
 
-#      - name: Setup upterm session
-#        uses: lhotari/action-upterm@v1
-
       - name: Install Dependencies
         run: yarn install --immutable
+
+      - name: Setup upterm session
+        uses: lhotari/action-upterm@v1
 
       - name: Build site
         run: |
